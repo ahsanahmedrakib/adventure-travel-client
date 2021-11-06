@@ -1,0 +1,11 @@
+.single-travel h3{
+    font-size: 22px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.single-travel p{
+    font-size: 13px;
+}
+.single-travel h3:hover{
+    color: red;
+}

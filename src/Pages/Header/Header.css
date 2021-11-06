@@ -1,0 +1,24 @@
+.nav-link i{
+    font-size: 20px;
+}
+.my-navlink li a{
+    font-family: "Rubik", sans-serif;
+}
+.my-login-link li a{
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    color: #000;
+    margin-left: 25px;
+}
+.my-login-link li a:hover{
+    color: #1C99E6;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #fff;
+    color: #1C99E6;
+}
+.logout-button button{
+    border: none;
+    background: none;
+    color: red;
+}

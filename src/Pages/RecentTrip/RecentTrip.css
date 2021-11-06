@@ -1,0 +1,11 @@
+.single-trip{
+    transition: 0.5s;
+}
+.single-trip img{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.single-trip:hover{
+    color: rgb(238, 104, 104);
+    margin-top: -5px;
+}

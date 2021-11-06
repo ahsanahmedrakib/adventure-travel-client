@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1, "image": "https://i.ibb.co/347hhK8/sylhet.jpg",  "name": "Shylhet", "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate.", "price": 5000
+    },
+    {
+        "id": 2, "image": "https://i.ibb.co/J7FFsPN/bandarban.jpg",  "name": "Bandarban", "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate.", "price": 4000
+    },
+    {
+        "id": 3, "image": "https://i.ibb.co/3sdh8vB/cox-bazar.jpg",  "name": "Cox Bazar", "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate.", "price": 3500
+    },
+    {
+        "id": 4, "image": "https://i.ibb.co/P4m575p/rangamati.jpg",  "name": "Rangamati", "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate.", "price": 7000
+    },
+    {
+        "id": 5, "image": "https://i.ibb.co/1TFSvJZ/sunamganj.jpg",  "name": "Sunamganj", "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate.", "price": 2000
+    },
+    {
+        "id": 6, "image": "https://i.ibb.co/F4sj7qQ/dhaka.jpg",  "name": "Dhaka", "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate.", "price": 1500
+    }
+]

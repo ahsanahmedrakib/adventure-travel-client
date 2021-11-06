@@ -1,0 +1,24 @@
+/* .newsletter_text{
+        font-family: "Rubik",sans-serif;
+        font-weight: normal;
+        font-style: normal;
+} */
+.newsletter-text h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.newsletter-text p {
+  color: #aab1b7;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.newletter-area {
+  background-image: linear-gradient(180deg, hsla(353, 12%, 27%, 0.65), hsla(231, 9%, 28%, 0.65)) ,url(https://i.ibb.co/wM8d38H/newsletter.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 35px 0;
+}

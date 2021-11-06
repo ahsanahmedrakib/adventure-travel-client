@@ -1,0 +1,21 @@
+.single-counter h3 {
+  color: #ff4a52;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 17px;
+}
+.single-counter p {
+  color: #7a838b;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+.about-content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #7a838b;
+    margin-bottom: 0 px;
+    font-family: "Rubik", sans-serif;
+}

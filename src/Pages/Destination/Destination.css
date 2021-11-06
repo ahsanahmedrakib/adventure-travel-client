@@ -1,0 +1,18 @@
+.my-places:hover {
+  box-shadow: 4px 4px 7px gray;
+  border-radius: 5px;
+  color: #1C99E6;
+}
+.my-places h3 {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+.my-places p{
+  line-height: 20px;
+}
+.my-places, .my-places div>p>span {
+  transition: 0.6s;
+}
+.my-places div>p>span:hover{
+  cursor: pointer;
+}

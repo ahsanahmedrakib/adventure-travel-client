@@ -1,0 +1,69 @@
+/* .my-map {
+  overflow-x: hidden;
+} */
+.bradcam-area {
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.bradcam-bg-4 {
+  background-image: linear-gradient(180deg, hsla(353, 12%, 27%, 0.65), hsla(231, 9%, 28%, 0.65)), url(https://i.ibb.co/xC9PpVY/ahsan-manzil.jpg);
+}
+.bradcam-area h3 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 90px;
+  text-transform: capitalize;
+  font-family: "Nothing You Could Do", cursive;
+}
+.bradcam-area p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.contact-info {
+  margin-bottom: 25px;
+}
+.contact-info__icon {
+  margin-right: 20px;
+}
+.contact-info .media-body h3 {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #2a2a2a;
+}
+.contact-info .media-body p {
+  color: #8a8a8a;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #7a838b;
+  margin-bottom: 0px;
+  font-family: "Rubik", sans-serif;
+}
+.contact-title {
+  font-size: 25px;
+  font-weight: 600;
+}

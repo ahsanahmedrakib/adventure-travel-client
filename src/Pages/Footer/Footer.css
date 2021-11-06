@@ -1,0 +1,25 @@
+.my-footer {
+  background-color: #040e27;
+}
+.footer-element h5{
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+}
+.footer-element span a, p{
+    color: #AAB1B7;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    transition: 0.6s;
+}
+.footer-element span a:hover{
+    color: #FF4A52;
+}
+.footer-bottom span a{
+  text-decoration: none;
+  color: #FF4A52;
+}
