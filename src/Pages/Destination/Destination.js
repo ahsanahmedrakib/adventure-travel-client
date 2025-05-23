@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Destination.css";
 
@@ -6,7 +6,7 @@ const Destination = () => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
-    fetch("https://peaceful-everglades-84721.herokuapp.com/destinations")
+    fetch("https://adventure-travel-server.onrender.com//destinations")
       .then((res) => res.json())
       .then((data) => setPlaces(data));
   }, []);
@@ -14,9 +14,16 @@ const Destination = () => {
   return (
     <div className="container my-4">
       <div className="py-4">
-        <h3 className="text-primary" style={{ fontFamily: "'Rubik', sans-serif", fontSize: "36px" }}>Popular Destination</h3>
+        <h3
+          className="text-primary"
+          style={{ fontFamily: "'Rubik', sans-serif", fontSize: "36px" }}
+        >
+          Popular Destination
+        </h3>
         <p>
-        we arrange a world class tour for every year. we always try to satisfy our clients and make a comfortable <br /> journey. We have most popular destinations all over bangladesh.
+          we arrange a world class tour for every year. we always try to satisfy
+          our clients and make a comfortable <br /> journey. We have most
+          popular destinations all over bangladesh.
         </p>
       </div>
       {!places.length ? (

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 const AddDestination = () => {
   const nameRef = useRef();
@@ -13,23 +13,22 @@ const AddDestination = () => {
     const description = descriptionRef.current.value;
     const price = priceRef.current.value;
 
-    const newDestination = { image, name, description, price }
+    const newDestination = { image, name, description, price };
 
-    fetch('https://peaceful-everglades-84721.herokuapp.com/addDestination', {
-        method: 'POST',
-        headers: {
-            'content-type': 'application/json'
-        },
-        body: JSON.stringify(newDestination)
+    fetch("https://adventure-travel-server.onrender.com//addDestination", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(newDestination),
     })
-    .then(res => res.json())
-    .then(data => {
-        if(data.insertedId){
-            alert("Destination added successfully")
-            e.target.reset();
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.insertedId) {
+          alert("Destination added successfully");
+          e.target.reset();
         }
-    })
-
+      });
   };
 
   return (

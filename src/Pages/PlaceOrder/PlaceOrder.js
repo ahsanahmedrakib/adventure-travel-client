@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router";
 import UseAuth from "../../Hooks/UseAuth";
 
@@ -14,7 +14,7 @@ const PlaceOrder = () => {
   const addressRef = useRef();
 
   useEffect(() => {
-    const url = `https://peaceful-everglades-84721.herokuapp.com/placeorder/${id}`;
+    const url = `https://adventure-travel-server.onrender.com//placeorder/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setPlace(data));
@@ -39,20 +39,20 @@ const PlaceOrder = () => {
       status: "Pending",
     };
 
-    fetch("https://peaceful-everglades-84721.herokuapp.com/placeorder", {
+    fetch("https://adventure-travel-server.onrender.com//placeorder", {
       method: "POST",
       headers: {
         "content-type": "application/json",
       },
       body: JSON.stringify(userBookingInfo),
     })
-    .then(res => res.json())
-    .then(data=> {
-      if(data.insertedId){
-        alert("Destination booked succesfully");
-        e.target.reset();
-      }
-    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.insertedId) {
+          alert("Destination booked succesfully");
+          e.target.reset();
+        }
+      });
   };
 
   return (
@@ -67,7 +67,9 @@ const PlaceOrder = () => {
                 src={place?.image}
                 alt=""
               />
-              <h1 className="my-3" style={{ textTransform: "uppercase" }}>{place?.name}</h1>
+              <h1 className="my-3" style={{ textTransform: "uppercase" }}>
+                {place?.name}
+              </h1>
               <p className="mb-3" style={{ textAlign: "justify" }}>
                 {place?.description}
               </p>
