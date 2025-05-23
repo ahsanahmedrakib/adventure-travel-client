@@ -14,7 +14,7 @@ const PlaceOrder = () => {
   const addressRef = useRef();
 
   useEffect(() => {
-    const url = `https://adventure-travel-server.onrender.com//placeorder/${id}`;
+    const url = `https://adventure-travel-server.onrender.com/placeorder/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setPlace(data));
@@ -39,7 +39,7 @@ const PlaceOrder = () => {
       status: "Pending",
     };
 
-    fetch("https://adventure-travel-server.onrender.com//placeorder", {
+    fetch("https://adventure-travel-server.onrender.com/placeorder", {
       method: "POST",
       headers: {
         "content-type": "application/json",

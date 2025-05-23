@@ -6,7 +6,7 @@ const Destination = () => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
-    fetch("https://adventure-travel-server.onrender.com//destinations")
+    fetch("https://adventure-travel-server.onrender.com/destinations")
       .then((res) => res.json())
       .then((data) => setPlaces(data));
   }, []);

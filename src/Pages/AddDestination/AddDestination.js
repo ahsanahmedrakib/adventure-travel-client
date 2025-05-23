@@ -15,7 +15,7 @@ const AddDestination = () => {
 
     const newDestination = { image, name, description, price };
 
-    fetch("https://adventure-travel-server.onrender.com//addDestination", {
+    fetch("https://adventure-travel-server.onrender.com/addDestination", {
       method: "POST",
       headers: {
         "content-type": "application/json",

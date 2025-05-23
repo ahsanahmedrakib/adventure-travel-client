@@ -4,13 +4,13 @@ const ManageOrders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch("https://adventure-travel-server.onrender.com//orders")
+    fetch("https://adventure-travel-server.onrender.com/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [orders]);
 
   const handleUpdateStatus = (id) => {
-    const url = `https://adventure-travel-server.onrender.com//orders/${id}`;
+    const url = `https://adventure-travel-server.onrender.com/orders/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {
@@ -29,7 +29,7 @@ const ManageOrders = () => {
   const handleDeleteOrder = (id) => {
     const proceed = window.confirm("Are you sure want to delete");
     if (proceed) {
-      const url = `https://adventure-travel-server.onrender.com//orders/${id}`;
+      const url = `https://adventure-travel-server.onrender.com/orders/${id}`;
       fetch(url, {
         method: "DELETE",
       })

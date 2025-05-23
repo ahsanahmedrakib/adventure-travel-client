@@ -8,7 +8,7 @@ const MyOrders = () => {
 
   // get all data
   useEffect(() => {
-    fetch("https://adventure-travel-server.onrender.com//orders")
+    fetch("https://adventure-travel-server.onrender.com/orders")
       .then((res) => res.json())
       .then((data) => {
         setAllOrders(data);
@@ -24,7 +24,7 @@ const MyOrders = () => {
   const handleDeleteOrder = (id) => {
     const proceed = window.confirm("Are you sure want to delete");
     if (proceed) {
-      const url = `https://adventure-travel-server.onrender.com//orders/${id}`;
+      const url = `https://adventure-travel-server.onrender.com/orders/${id}`;
       fetch(url, {
         method: "DELETE",
       })
