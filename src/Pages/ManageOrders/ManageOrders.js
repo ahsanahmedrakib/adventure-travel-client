@@ -7,7 +7,7 @@ const ManageOrders = () => {
     fetch("https://adventure-travel-server.onrender.com/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
-  }, [orders]);
+  }, []);
 
   const handleUpdateStatus = (id) => {
     const url = `https://adventure-travel-server.onrender.com/orders/${id}`;
