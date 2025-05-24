@@ -6,20 +6,17 @@ const Services = () => {
     {
       image: "https://i.ibb.co/1JXC4vb/service-1.png",
       title: "Comfortable Journey",
-      description:
-        "We arrange a comfortabel journey for our clients.",
+      description: "We arrange a comfortabel journey for our clients.",
     },
     {
       image: "https://i.ibb.co/ZKS487Q/service-2.png",
       title: "Luxurious Hotel",
-      description:
-        "We have a good communication with hotel businessman.",
+      description: "We have a good communication with hotel businessman.",
     },
     {
-      image: "https://i.ibb.co/VLfD4F4/service-3.png",
+      image: "https://i.ibb.co/JwLZyQCG/service-3.png",
       title: "Travel Guide",
-      description:
-        "A group of experienced travel guide will always guide you.",
+      description: "A group of experienced travel guide will always guide you.",
     },
   ];
 
@@ -31,7 +28,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-travel text-center">
                 <div className="icon">
-                  <img src={service.image} alt="" />
+                  <img src={service.image} alt="" height={60} width={60} />
                 </div>
                 <h3>{service.title}</h3>
                 <p>
